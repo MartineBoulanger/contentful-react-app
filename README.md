@@ -1,3 +1,26 @@
+# React and Contentful Practice App
+
+This is my practice app for practicing React with Contentful.
+I made this app with hooks and function components.
+
+In this app the following packages are used:
+
+* Bootstrap 5 => with cdn (see index.html)
+* Font Awesome => with cdn (see index.html)
+* Marked => yarn add marked or npm install marked
+* Contentful => yarn add contentful or npm install contentful
+* Apollo Client => yarn add @apollo/client or npm install @apollo/client
+* Graphql => yarn add graphql or npm install graphql
+
+# I can't see the content!?
+You need to make your own contentful account, 
+change the credentials in the client.js, 
+add the content types in your space,
+if needed you change things in the code.
+
+
+==============================================================
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +91,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# contentful-react-app
