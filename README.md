@@ -13,10 +13,9 @@ In this app the following packages are used:
 * Graphql => yarn add graphql or npm install graphql
 
 # I can't see the content!?
-You need to make your own contentful account, 
-change the credentials in the client.js, 
-add the content types in your space,
-if needed you change things in the code.
+You need to make your own contentful account and space with the content types and entries, 
+make a .env file in the root folder and add there the credentials in variables, then change the variable names (if you named them differently) in the client.js, 
+change the code there where needed, like the entry ids or the names of the content types and of course the names of the fields.
 
 
 ==============================================================
