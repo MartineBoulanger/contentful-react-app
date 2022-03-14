@@ -41,6 +41,8 @@ const LandingPage = () => {
       className="carousel slide"
       data-bs-ride="carousel"
     >
+      
+      
       <div className="carousel-inner">
         {carouselData.map((item, i) => (
           <div key={i} className={setClass(i)} data-bs-interval="8000">
